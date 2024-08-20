@@ -28,6 +28,7 @@ public class Solution {
         }
 
         bufferedReader.close();
+        // should give Integer.MIN_VALUE not 0
         int max=Integer.MIN_VALUE;
         for(int i=0;i<4;i++){
             for(int j=0;j<4;j++){
